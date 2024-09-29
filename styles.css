@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #222;
+    background-color: #ffffff;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color:#771717;
     padding: 10px;
     width: 100%;
     display: flex;
@@ -26,9 +26,22 @@ header h1 {
     font-size:24px;
 }
 
+header button {
+    background-color: #fff;
+    
+}
+
 
 main{
+    background-color: #222;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+footer p{
+    background-color: #222;
+    margin-top: 20px;
+    
 }
